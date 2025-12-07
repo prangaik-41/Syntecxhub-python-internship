@@ -2,4 +2,6 @@
 Internship tasks and weekly submissions for Python Programming at SYNTECXHUB.
 # Week 1 – Task 1: Python Calculator
 
-This repository contains my Week 1 – Task 1 project for the SyntecxHub Internship Program. The objective of this task was to implement a simple yet functional calculator using Python to demonstrate understanding of fundamental programming concepts. The calculator accepts two numerical inputs from the user and allows selection of an arithmetic operator (+, -, *, /). Based on the chosen operator, the script performs the corresponding calculation and displays the output. The program also includes basic validation such as handling invalid operators and preventing division by zero to ensure safe execution. This task helped strengthen my skills in writing clean functions, managing user input, applying conditional logic, and structuring small Python applications in a professional and readable way, forming a strong base for more complex tasks in the upcoming internship weeks.
+A simple and clean Python calculator built as part of my SyntecxHub Internship.  
+This program takes two numbers, accepts an operator (+, -, *, /), performs the calculation, and returns the result with basic error handling.  
+Designed to practice core Python concepts such as functions, user input, and conditional logic while maintaining readable and beginner-friendly code.
