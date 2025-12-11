@@ -5,28 +5,28 @@ Internship tasks and weekly submissions for Python Programming at SYNTECXHUB.
 A simple and clean Python calculator built as part of my SyntecxHub Internship.  
 This program takes two numbers, accepts an operator (+, -, *, /), performs the calculation, and returns the result with basic error handling.  
 Designed to practice core Python concepts such as functions, user input, and conditional logic while maintaining readable and beginner-friendly code.
-# 🧠 Number Guessing Game (Python)
+#  Number Guessing Game (Python)
 
 A simple yet feature-rich **Python Number Guessing Game** that uses loops, conditionals, and the `random` module. The game challenges the user to guess a randomly generated number with hints, difficulty modes, attempt tracking, and a replay option.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🎲 **Random Number Generation** using `random.randint()`
-- 🎚 **Difficulty Levels**
+-  **Random Number Generation** using `random.randint()`
+- **Difficulty Levels**
   - Easy (1–20)
   - Medium (1–50)
   - Hard (1–100)
-- 💡 **Higher / Lower Hints** after every guess
-- 🔁 **Replay Support** — play unlimited rounds
-- 🏆 **Best Score Tracking** — records the lowest number of attempts
-- 🔢 Input validation (avoids crashes)
-- ⏱ Beginner-friendly logic using **loops and conditionals**
+-  **Higher / Lower Hints** after every guess
+-  **Replay Support** — play unlimited rounds
+- **Best Score Tracking** — records the lowest number of attempts
+-  Input validation (avoids crashes)
+-  Beginner-friendly logic using **loops and conditionals**
 
 ---
 
-## 📂 How It Works
+##  How It Works
 
 1. The player selects a difficulty level.
 2. The program generates a random number within the chosen range.
@@ -48,7 +48,7 @@ A simple yet feature-rich **Python Number Guessing Game** that uses loops, condi
 
 ---
 
-## ▶️ Run the Program
+##  Run the Program
 
 Use the following command in your terminal:
 
