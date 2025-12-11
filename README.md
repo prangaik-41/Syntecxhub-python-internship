@@ -93,7 +93,3 @@ Use the following command in your terminal:
 
 python calculator.py
 python guess_game.py
-
-
-
-
