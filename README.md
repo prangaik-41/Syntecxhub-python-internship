@@ -38,9 +38,6 @@ The project focuses on practicing core Python concepts such as user input, funct
 
 ---
 
-## Run the Program
-
-Use the following command to execute the script:
 
 #  Project-2 : Number Guessing Game (Python)
 
