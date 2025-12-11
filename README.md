@@ -1,11 +1,46 @@
 # Syntecxhub-python-internship
 Internship tasks and weekly submissions for Python Programming at SYNTECXHUB.
 # Week 1 – Task 1:
-Project-1 : Python Calculator
+# Project 1: Python Calculator
 
 A simple and clean Python calculator built as part of my SyntecxHub Internship.  
-This program takes two numbers, accepts an operator (+, -, *, /), performs the calculation, and returns the result with basic error handling.  
-Designed to practice core Python concepts such as functions, user input, and conditional logic while maintaining readable and beginner-friendly code.
+This program takes two numbers, accepts an operator (+, -, *, /), performs the calculation, and returns the result with basic error handling.
+
+The project focuses on practicing core Python concepts such as user input, functions, conditionals, and clean code structure. It is designed to be beginner-friendly while demonstrating clear logic and proper handling of invalid inputs.
+
+---
+
+## Features
+
+- Supports four basic arithmetic operations: addition, subtraction, multiplication, and division  
+- Uses functions to organize and process calculations  
+- Handles invalid operators and incorrect inputs  
+- Returns clear, readable output for each operation  
+- Simple structure suitable for beginners learning Python fundamentals
+
+---
+
+## How It Works
+
+1. The program asks the user to input two numbers  
+2. The user selects an operator: +, -, *, or /  
+3. The calculator processes the operation and displays the result  
+4. If the user enters an invalid operator or non-numeric input, the program handles the error gracefully
+
+---
+
+## Technologies Used
+
+- Python 3
+- Functions for modular code
+- Conditional statements for operation control
+- Input handling for user interaction
+
+---
+
+## Run the Program
+
+Use the following command to execute the script:
 
 #  Project-2 : Number Guessing Game (Python)
 
@@ -55,4 +90,10 @@ A simple yet feature-rich **Python Number Guessing Game** that uses loops, condi
 Use the following command in your terminal:
 
 ```bash
+
+python calculator.py
 python guess_game.py
+
+
+
+
