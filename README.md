@@ -81,7 +81,8 @@ A simple yet feature-rich **Python Number Guessing Game** that uses loops, condi
 - User input handling
 
 ---
-# Project: Student Management System (CLI)
+# Week 2 – Task 2:
+# Project:3 Student Management System (CLI)
 
 A simple and structured Student Management System built using Python.
 This command-line application allows users to add, update, delete, and view student records while persisting data using file storage.
