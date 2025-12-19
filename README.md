@@ -81,6 +81,45 @@ A simple yet feature-rich **Python Number Guessing Game** that uses loops, condi
 - User input handling
 
 ---
+# Project: Student Management System (CLI)
+
+A simple and structured Student Management System built using Python.
+This command-line application allows users to add, update, delete, and view student records while persisting data using file storage.
+
+The project focuses on practicing Object-Oriented Programming (OOP) concepts, file handling, and basic input validation. It is designed to be beginner-friendly while demonstrating clean code structure and real-world logic.
+
+---
+
+## Features
+
+- Add new student records with unique student IDs
+- Update existing student details (name and grade)
+- Delete student records by ID
+- List all student records in a formatted table
+- Persistent storage using a JSON file
+- Prevents duplicate student IDs
+- Clean and readable console output
+
+---
+
+## How It Works
+
+1. The program displays a menu with available operations
+2. The user selects an option (Add / Update / Delete / List / Exit)
+3. Student details are entered via the command line
+4. Records are saved automatically to a JSON file
+5. Data is loaded from the file each time the program runs
+
+---
+
+## Technologies Used
+
+- Python 3
+- Object-Oriented Programming (Classes & Objects)
+- JSON file handling for data persistence
+- Conditional statements and loops
+- Basic input validation
+- CLI-based user interaction
 
 ##  Run the Program
 
@@ -90,3 +129,4 @@ Use the following command in your terminal:
 
 python calculator.py
 python guess_game.py
+python main.py
