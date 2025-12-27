@@ -122,6 +122,98 @@ The project focuses on practicing Object-Oriented Programming (OOP) concepts, fi
 - Basic input validation
 - CLI-based user interaction
 
+# Week 3 – Task 2: CSV to Excel Converter (CLI)
+
+The project focuses on practicing real-world data preparation techniques, building CLI automation, structured logging, and error-handling mechanisms. It is designed to be lightweight, user-friendly, and suitable for reporting or data-processing workflows.
+---
+
+## Features
+
+- Read CSV files from local storage
+- Clean and normalize column names
+- Handle missing values safely
+- Automatic parsing for date columns
+- Simple column rename rules (ID normalization)
+- Export processed data to Excel (`.xlsx`)
+- CLI flags for input file and output path
+- Logging and structured error messages for invalid files
+- Fast execution suitable for automation pipelines
+
+---
+
+## How It Works
+
+1. The user provides input CSV file using CLI flags
+2. The program reads the file using pandas
+3. Data is cleaned and normalized
+4. Date columns are parsed automatically if present
+5. Output is written to Excel format using openpyxl engine
+6. Logs are generated for each step and errors are handled gracefully
+
+---
+
+## Installation
+
+Ensure you have Python installed, then install required dependencies:
+
+```sh
+pip install pandas openpyxl
+```
+
+---
+
+## Usage
+
+Run the script from terminal:
+
+```sh
+python converter.py -i input.csv -o output.xlsx
+```
+
+### CLI Flags
+| Flag | Description |
+|------|-------------|
+| `-i`, `--input`  | Path to input CSV file |
+| `-o`, `--output` | Path to output Excel file (`.xlsx`) |
+
+---
+
+## Project Structure
+
+```
+CSV-Excel-Converter/
+│── converter.py
+│── README.md
+│── sample.csv (optional test file)
+```
+
+---
+
+## Error Handling
+
+The program validates and handles:
+
+- Missing or incorrect file paths
+- Empty CSV files
+- Corrupted or badly formatted CSV files
+- Incorrect output file extension
+- Unexpected runtime failures
+
+All errors are logged and displayed without breaking execution flow.
+
+---
+
+## Future Scope
+
+- Can be integrated into reporting automation
+- Can be extended with advanced cleaning rules
+- Can support multiple file conversions
+- Can be packaged into executable CLI tools
+
+
+---
+
+
 ##  Run the Program
 
 Use the following command in your terminal:
